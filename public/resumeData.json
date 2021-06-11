@@ -15,7 +15,7 @@
       "zip": "09930-220"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"https://drive.google.com/file/d/1qaVaqz_QKJ8zOyG8ZWv9IGfp-2HrinNp/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1kqAQCTxNUAbIZxGWst_dsf-bVJ3KqOs9/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -53,44 +53,44 @@
       {
         "company":"Agência Every",
         "title":"Desenvolvedor Web",
-        "years":"Março 2019 - Maio 2019",
+        "years":"6 Março 2019 - 31 Maio 2019",
         "description":"Desenvolvimento de sites Wordpress e páginas estáticas utilizando HTML, CSS e JavaScript. Criação de bancos de dados relacionais com MySQL. Desenvolvimento de uma plataforma web para a DOW Chemical Company, onde fiquei responsável por construir o front-end com a ajuda de um designer e desenvolvedores da equipe. A plataforma consiste em treinamentos oferecidos pela DOW a clientes que buscam agregar valor às embalagens de seus produtos."
       },
       {
         "company":"WR Glass Comércio e Importação de Acessórios para Vidros LTDA",
         "title":"Suporte Técnico (Estágio)",
-        "years":"Abril 2018 - Julho 2018",
+        "years":"2 Abril 2018 - 30 Julho 2018",
         "description":"Suporte ao usuário interno, catalogação de equipamentos eletrônicos e manutenção de redes e microcomputadores. E participação na 13ª feira Glass South America no São Paulo Expo, prestando suporte técnico ao stand da empresa WR Glass."
       }
     ],
     "skills":[
       {
         "name":"Git",
-        "level":"45%"
+        "image":""
       },
       {
         "name":"JavaScript",
-        "level":"60%"
+        "image":"javascript-logo.png"
       },
       {
         "name":"ReactJs",
-        "level":"45%"
+        "image":""
       },
       {
         "name":"CSS",
-        "level":"50%"
+        "image":""
       },
       {
         "name":"HTML5",
-        "level":"60%"
+        "image":""
       },
       {
         "name":"NodeJS",
-        "level":"50%"
+        "image":""
       },
       {
         "name":"MongoDB",
-        "level":"30%"
+        "image":""
       }
     ]
   },

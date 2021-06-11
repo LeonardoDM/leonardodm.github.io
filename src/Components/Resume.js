@@ -16,10 +16,6 @@ class Resume extends Component {
             <p>{work.description}</p>
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      })
     }
 
     return (
@@ -55,21 +51,53 @@ class Resume extends Component {
 
       <div className="row skill">
 
-         <div className="three columns header-col">
-            <h1><span>Tecnologias</span></h1>
-         </div>
+        <div className="three columns header-col">
+          <h1><span>Tecnologias</span></h1>
+        </div>
 
-         <div className="nine columns main-col">
+        <div className="nine columns main-col">
 
-            <p>{skillmessage}
-            </p>
+          <p>{skillmessage}</p>
 
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+          <div className="four columns">
+            <img src="./images/techs/HTML-5-01.jpg"  alt="HTML" title="HTML"/>
+          </div>
+
+          <div className="four columns">
+            <img src="./images/techs/CSS-3-01.jpg"  alt="CSS" title="CSS"/>
+          </div>
+
+          <div className="four columns">
+            <img src="./images/techs/Bootstrap-01.jpg" alt="Bootstrap" title="Bootstrap"/>
+          </div>
+
+          <div className="four columns">
+            <img src="./images/techs/JavaScript-01.jpg"  alt="JavaScript" title="JavaScript"/>
+          </div>
+
+          <div className="four columns">
+            <img src="./images/techs/Node-JS-01.jpg"  alt="NodeJS" title="NodeJS"/>
+          </div>
+
+          <div className="four columns">
+            <img src="./images/techs/React-01.jpg"  alt="ReactJS" title="ReactJS"/>
+          </div>
+
+          <div className="four columns">
+            <img src="./images/techs/Git-06.jpg" alt="Git" title="Git"/>
+          </div>
+
+          <div className="four columns">
+            <img src="./images/techs/MySQL-01.jpg" alt="MySQL" title="MySQL"/>
+          </div>
+
+          <div className="four columns">
+            <img src="./images/techs/Mongodb-03.jpg" alt="MongoDB" title="MongoDB"/>
+          </div>
+          
+          
+
+        </div>
       </div>
    </section>
     );
